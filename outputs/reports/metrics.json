@@ -1,0 +1,44 @@
+{
+  "data_quality": {
+    "rows_train_raw": 70000,
+    "rows_train_clean": 70000,
+    "rows_test_raw": 30000,
+    "rows_test_clean": 30000,
+    "train_review_id_unique": true,
+    "test_review_id_unique": true,
+    "missing_product_fk_train": 0,
+    "missing_product_fk_test": 0,
+    "score_distribution": {
+      "1": 0.0402,
+      "2": 0.03757142857142857,
+      "3": 0.11377142857142857,
+      "4": 0.24368571428571428,
+      "5": 0.5647714285714286
+    },
+    "conflict_ratio_train": 0.0,
+    "conflict_ratio_test": 0.0,
+    "empty_clean_text_ratio_train": 2.857142857142857e-05,
+    "empty_clean_text_ratio_test": 0.0,
+    "etl_batch_id": "batch_20260522103206"
+  },
+  "score_model_metrics": {
+    "accuracy": 0.5647857142857143,
+    "macro_f1": 0.14437394440133292,
+    "qwk": 0.0,
+    "bert_backend": "none"
+  },
+  "risk_model_metrics": {
+    "micro_f1": 0.008613264427217916,
+    "macro_f1": 0.013609098491099406,
+    "micro_precision": 0.23076923076923078,
+    "micro_recall": 0.004388531304856641,
+    "macro_precision": 0.23973820297349707,
+    "macro_recall": 0.007041477870609797,
+    "hamming_loss": 0.061660714285714284,
+    "threshold": 0.35
+  },
+  "anomaly_model_metrics": {
+    "proxy_auc": 0.9940634426610921,
+    "proxy_f1": 0.0010423905489923557
+  }
+}
